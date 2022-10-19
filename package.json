@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap5-landing-page-iti-course-project",
+  "version": "1.0.0",
+  "description": "ITI Bootstra-5 Course Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayaramein/bootstrap5-landing-page-iti-course-project.git"
+  },
+  "author": "mayaramein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayaramein/bootstrap5-landing-page-iti-course-project/issues"
+  },
+  "homepage": "https://github.com/mayaramein/bootstrap5-landing-page-iti-course-project#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.9.1"
+  }
+}
