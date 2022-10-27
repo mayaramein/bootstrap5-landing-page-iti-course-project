@@ -10,117 +10,800 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
+  
+    <link rel="shortcut icon" href="./assets/img/favicon.ico">
+</head>
   <body>
-    <!-- Header -->
-    <div class="header-height-bar" style="min-height: 116px;"></div>
+    <!-- # Header -->
+    <div class="header-height-bar"></div>
     <header class="fixed-top">
-        <div class="header-main header-light header-height fixed-header" style="top: -38.4px;">
-            <div class="header-top d-none d-lg-block bg-dark">
+        <div class="header-main header-light header-height">
+            <div class="d-none d-lg-block bg-black">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <div class="nav white-link">
+                            <div class="nav">
                                 <a href="#" class="me-3 p-1">
-                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-facebook-f text-secondary"></i>
                                 </a>
                                 <a href="#" class="me-3 p-1">
-                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-twitter text-secondary"></i>
                                 </a>
                                 <a href="#" class="me-3 p-1">
-                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-instagram text-secondary"></i>
                                 </a>
                                 <a href="#" class="me-3 p-1">
-                                    <i class="fab fa-linkedin-in"></i>
+                                    <i class="fab fa-linkedin-in text-secondary"></i>
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="nav white-link justify-content-end small">
-                                <a class="py-2" href="tel:1800222000"><i class="fa-solid fa-comments me-2"></i> 1-800-222-000</a>
-                                <a class="py-2 ms-4" href="mailto:info@domain.com"><i class="fa-solid fa-envelope me-2"></i> info@domain.com</a>
+                                <a class="py-2 text-secondary text-decoration-none href="tel:1800222000"><i class="fa-solid fa-comments text-secondary me-2"></i> 1-800-222-000</a>
+                                <a class="py-2 ms-4 text-secondary text-decoration-none href="mailto:info@domain.com"><i class="fas fa-envelope text-secondary me-2"></i> info@domain.com</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light">
+
                 <div class="container">
-                    <!-- Logo -->
-                    <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/logo.svg" title="" alt="">
-                    </a>
-                    <!-- Logo -->
-                    <!-- Mobile Toggle -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="navbar-brand" href="#"><img src="./assets/img/logo.svg" /></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <!-- End Mobile Toggle -->
-                    <!-- Menu -->
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto">
+                        <ul class="navbar-nav ms-auto castome-ul">
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Home</a>
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
                             </li>
-                            <li class="dropdown nav-item">
-                                <a href="#" class="nav-link">Pages</a>
-                                <label class="dropdown-toggle mob-menu" data-bs-toggle="dropdown"></label>
-                                <div class="dropdown-menu shadow-lg">
-                                    <a class="dropdown-item" href="#">About</a>
-                                    <a class="dropdown-item" href="#">Services</a>
-                                    <a class="dropdown-item" href="#">Services Detail</a>
-                                    <a class="dropdown-item" href="#">Pricing</a>
-                                    <a class="dropdown-item" href="#">Project</a>
-                                    <a class="dropdown-item" href="#">Portfolio single</a>
-                                    <a class="dropdown-item" href="#">Faq's</a>
-                                    <a class="dropdown-item" href="#">Team</a>
-                                    <a class="dropdown-item" href="#">Contact Us</a>
-                                </div>
+    
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">About</a></li>
+                                    <li><a class="dropdown-item" href="#">Services</a></li>
+                                    <li><a class="dropdown-item" href="#">Services Detail</a></li>
+                                    <li><a class="dropdown-item" href="#">Pricing</a></li>
+                                    <li><a class="dropdown-item" href="#">Project</a></li>
+                                    <li><a class="dropdown-item" href="#">Portfolio single</a></li>
+                                    <li><a class="dropdown-item" href="#">Faq's</a></li>
+                                    <li><a class="dropdown-item" href="#">Team</a></li>
+                                    <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                                </ul>
                             </li>
-                            <li class="dropdown nav-item">
-                                <a href="#" class="nav-link">Services</a>
-                                <label class="dropdown-toggle mob-menu" data-bs-toggle="dropdown"></label>
-                                <div class="dropdown-menu shadow-lg">
-                                    <a class="dropdown-item" href="#">Services</a>
-                                    <a class="dropdown-item" href="#">Services Detail</a>
-                                </div>
+    
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Services</a></li>
+                                    <li><a class="dropdown-item" href="#">Services Detail</a></li>
+                                </ul>
                             </li>
-                            <li class="dropdown nav-item">
-                                <a href="#" class="nav-link">Blog</a>
-                                <label class="dropdown-toggle mob-menu" data-bs-toggle="dropdown"></label>
-                                <div class="dropdown-menu shadow-lg">
-                                    <a class="dropdown-item" href="#">Blog</a>
-                                    <a class="dropdown-item" href="#">Blog Single</a>
-                                </div>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                                    <li><a class="dropdown-item" href="#">Blog Single</a></li>
+                                </ul>
                             </li>
+    
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <a href="contact-us.html" class="nav-link">
                                     Contact Us
                                 </a>
                             </li>
+    
+                            <li class="nav-item">
+                                <a class="btn btn-sm rounded-0 text-white mt-3 px-4 py-2 border-0" style="background-color: #ff7b00;" href="#">
+                                    <span class="fas fa-phone pl-2"></span>
+                                    <span>Call now</span>
+                                </a>
+                            </li>
+    
+    
                         </ul>
-                        <div class="extra-menu d-none d-lg-block ps-4">
-                            <a class="btn btn-primary btn-sm" href="#">
-                                <span class="fas fa-phone fa-rotate-90"></span>
-                                <span class="btn--text">Call now</span>
-                            </a>
-                        </div>
                     </div>
-                    <!-- End Menu -->
                 </div>
+    
             </nav>
+        </nav>
         </div>
     </header>
     <!-- Header End -->
     <!-- Main -->
     <main>
+        <!-- Home Banner -->
+        <div class="mb-5">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-inner ">
+                    <div class="carousel-item active w-100 h-100 ">
+                        <div class="position-absolute top-0 start-0 end-0 bottom-0 opacity-4 bg-gray-100"> </div>
+                        <img src="./assets/img/home-banner-1.jpg" class="d-block w-100" alt="Home-banner-1">
+                        <div
+                            class="carousel-caption d-flex justify-content-center align-items-center top-0 start-0 bottom-0 end-0 container ">
+                            <div class="pt-5 mt-5">
+                                <div class="fw-semibold text-white mb-3">Power Customization</div>
+                                <h1 class="fw-bolder lh-1 text-white mb-3">We Are Best<br> Builders In The <br> world </h1>
+                                <p class="fw-semibold text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                    eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam.</p>
+                                <div class="pt-3">
+                                    <a class="btn btn-primary btn-sm rounded-0 px-5 py-3 border-0 custom-btn" href="#">
+                                        <span class="btn--text ">Explore More</span>
+                                    </a>
+                                    <a class="btn btn-sm rounded-0 px-5 py-3 border-0 bg-white " href="#">
+                                        <span class="btn--text ">Get In Touch</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
     
+                    </div>
+                    <div class="carousel-item">
+                        <div class="position-absolute top-0 start-0 end-0 bottom-0 opacity-4 bg-gray-100"> </div>
+                        <img src="./assets/img/home-banner-2.jpg" class="d-block w-100" alt="Home-banner-2">
+                        <div
+                            class="carousel-caption d-flex justify-content-center align-items-center top-0 start-0 bottom-0 end-0 container ">
+                            <div class="pt-5 mt-5">
+                                <div class="fw-semibold text-white mb-3">Power Customization</div>
+                                <h1 class="fw-bolder lh-1 text-white mb-3">We Are Best <br> Builders In The <br>world </h1>
+                                <p class="fw-semibold text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                    eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam.</p>
+                                <div class="pt-3">
+                                    <a class="btn rounded-0 px-5 py-3 border-0" style="background-color: #ff7b00;" href="#">
+                                        <span class="btn--text ">Explore More</span>
+    
+                                    </a>
+                                    <a class="btn btn-sm rounded-0 px-5 py-3 border-0 bg-white" href="#">
+                                        <span class="btn--text ">Get In Touch</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    
+        </div>
+        <!-- End Home Banner -->
+        <!-- # About Section -->
+        <section class="py-5 py-sm-8">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 my-3 pe-lg-12">
+                        <h6 class="fw-bold" style="color: #ff7b00;">Where Can We Help You</h6>
+                        <h3 class="fs-1 fw-bold">Welcome To Construction Real Solutions.</h3>
+                        <p class="text-muted">Dome is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                        <ul class="list-type-01 pt-2">
+                            <li>Beautiful and easy to understand UI, professional animations</li>
+                            <li>Theme advantages are pixel perfect design &amp; clear code delivered</li>
+                            <li>Present your services with flexible, convenient and multipurpose</li>
+                            <li>Find more creative ideas for your projects</li>
+                            <li>Unlimited power and customization possibilities</li>
+                        </ul>
+                        <div class="pt-5">
+                            <a class="btn rounded-0 me-3 text-white fw-semibold py-3 px-4" style="background-color: #ff7b00;" href="#">
+                                <span class="mr-2">Read More</span>
+                                <i class="fa-solid fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 my-3">
+                        <div class="row g-1">
+                            <div class="col-6">
+                                <img src="./assets/img/about-1.jpg" class="img-fluid" title="" alt="">
+                            </div>
+                            <div class="col-6">
+                                <img src="./assets/img/about-2.jpg" class="img-fluid" title="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section -->
+        <!-- # Project Section -->
+        <section class="py-5 py-sm-8 mb-5 mt-5 bg-secondary bg-opacity-10">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 my-3 px-5">
+                        <img src="./assets/img/about-3.png"  class="img-fluid"  title="" alt="">
+                    </div>
+                    <div class="col-lg-6 my-3 ps-lg-8">
+                        <h6 class="fw-bold" style="color: #ff7b00;">Explore The Features</h6>
+                        <h3 class="fs-1 fw-bold">Project Commitment</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="pt-2">
+                            <a class="btn rounded-0 me-3 text-white fw-semibold py-3 px-4" style="background-color: #ff7b00;" href="#">
+                                <span class="mr-2">Read More</span>
+                                <i class="fa-solid fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section -->
+        <!-- # Our work Section -->
+        <section class="py-5 py-sm-8">
+            <div class="container">
+                <div class="row justify-content-center mb-5 mt-5">
+                    <div class="col-lg-8 col-xl-7 text-center">
+                        <h6 class="fw-bold" style="color: #ff7b00;">Our Work</h6>
+                        <h3 class="fs-1 fw-bold">Explore Recent Projects</h3>
+                        <div class="text-muted">Dome is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 my-3">
+                        <div class="feature-hover-2 position-relative shadow">
+                            <div class="position-relative">
+                                <img src="./assets/img/project-1.jpg" class="img-fluid" title="" alt="">
+                            </div>
+                            <div class="position-absolute bottom-0 p-1 d-flex align-items-end justify-content-center p-3">
+                                <div class="bg-white p-4 w-100">
+                                    <small class="font-w-500">Pxdraft Studio</small>
+                                    <h4 class="m-0 pt-2">Our solution for your business.</h4>
+                                    <div class="btn-our-work pt-3">
+                                        <a class="btn rounded-0 me-3 text-white fw-semibold py-3 px-4" style="background-color: #ff7b00;" href="#">View Projects</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 my-3">
+                        <div class="feature-hover-2 position-relative shadow">
+                            <div class="position-relative">
+                                <img src="./assets/img/project-2.jpg" class="img-fluid" title="" alt="">
+                            </div>
+                            <div class="position-absolute bottom-0 p-1 d-flex align-items-end justify-content-center p-3">
+                                <div class="bg-white p-4 w-100">
+                                    <small class="font-w-500">Pxdraft Studio</small>
+                                    <h4 class="m-0 pt-2">Our solution for your business.</h4>
+                                    <div class="btn-our-work pt-3">
+                                        <a class="btn rounded-0 me-3 text-white fw-semibold py-3 px-4" style="background-color: #ff7b00;" href="#">View Projects</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 my-3">
+                        <div class="feature-hover-2 position-relative shadow">
+                            <div class="position-relative">
+                                <img src="./assets/img/project-3.jpg" class="img-fluid" title="" alt="">
+                            </div>
+                            <div class="position-absolute bottom-0 p-1 d-flex align-items-end justify-content-center p-3">
+                                <div class="bg-white p-4 w-100">
+                                    <small class="font-w-500">Pxdraft Studio</small>
+                                    <h4 class="m-0 pt-2">Our solution for your business.</h4>
+                                    <div class="btn-our-work pt-3">
+                                        <a class="btn rounded-0 me-3 text-white fw-semibold py-3 px-4" style="background-color: #ff7b00;" href="#">View Projects</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section -->
+        <!-- # Process Section -->
+        <section class="py-5 py-sm-8 bg-secondary bg-opacity-10">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-8 col-xl-7 text-center">
+                        <h6 class="fw-bold" style="color: #ff7b00;">Our Work Process</h6>
+                        <h3 class="fs-1 fw-bold">How Does Dome Works</h3>
+                        <div class="text-muted p-3 fs-5">Dome is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 position-relative my-3">
+                        <div class="card p-5">
+                            <div class="card-body p- text-center py-lg-8">
+                                <div class="icon icon-xl text-white rounded-circle mb-4"
+                    style="background-color: #ff7b00;" ><i class="number fs-2 fst-normal">1</i>
+                                </div>
+                                <h5 class="mb-3 fw-bold">General Contract</h5>
+                                <p class="m-0 mx-auto w-80">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card p-5">
+                            <div class="card-body p- text-center py-lg-8">
+                                <div class="icon icon-xl text-white rounded-circle mb-4"
+                    style="background-color: #ff7b00;" ><i class="number fs-2 fst-normal">2</i>
+                                </div>
+                                <h5 class="mb-3 fw-bold">Project Planing</h5>
+                                <p class="m-0 mx-auto w-80">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card p-5">
+                            <div class="card-body text-center py-lg-8">
+                                <div class="icon icon-xl text-white rounded-circle mb-4"
+                    style="background-color: #ff7b00;"><i class="number fs-2 fst-normal">3</i>
+                                </div>
+                                <h5 class="mb-3 fw-bold">Interior Design</h5>
+                                <p class="m-0 mx-auto w-80">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section -->
+        <!-- # Video Section -->
+        <section class="py-5 py-sm-8" style="background-image: url(./assets/img/bg-1.jpg);background-position: center center;background-attachment: fixed;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <h3 class="text-white fs-1 fw-bold">
+                            We Building Everything That Needed You
+                        </h3>
+                        <div class="pt-3">
+                            <a class="text-center text-decoration-none text-black bg-white p-4 rounded-circle" href="https://www.youtube.com/watch?v=dNIfsv1rKJo"><i class="fas fa-play fs-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section -->
+        <!-- # Offer Section -->
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-center my-5">
+                    <div class="col-lg-8 col-xl-7 text-center">
+                        <h6 class="fw-bold" style="color: #ff7b00;">What We Offer</h6>
+                        <h3 class="fs-1 fw-bold">Dome Best Services</h3>
+                        <div class="text-muted">Dome is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-4 my-3">
+                        <div class="card overflow-hidden hover-top">
+                            <div class="position-relative">
+                                <div class="card-img-overlay d-flex align-items-center justify-content-center z-index-1">
+                                    <div class="icon icon-lg text-white rounded-circle"
+                         style="background-color: #ff7b00;"><i class="far fa-building"></i>
+                                    </div>
+                                </div>
+                                <img class="card-img-top" src="./assets/img/services-1.jpg" class="img-fluid" title="" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="mb-3 fw-bold">Construction Management</h5>
+                                <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et</p>
+                                <a class="ms-auto font-w-500 link-effect" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 my-3">
+                        <div class="card overflow-hidden hover-top">
+                            <div class="position-relative">
+                                <div class="card-img-overlay d-flex align-items-center justify-content-center z-index-1">
+                                    <div class="icon icon-lg text-white rounded-circle"
+                         style="background-color: #ff7b00;"><i class="fas fa-tools"></i>
+                                    </div>
+                                </div>
+                                <img class="card-img-top" src="./assets/img/services-2.jpg" class="img-fluid" title="" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="mb-3 fw-bold">Expert Mechanical</h5>
+                                <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et</p>
+                                <a class="ms-auto font-w-500 link-effect" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 my-3">
+                        <div class="card overflow-hidden hover-top">
+                            <div class="position-relative">
+                                <div class="card-img-overlay d-flex align-items-center justify-content-center z-index-1">
+                                    <div class="icon icon-lg text-white rounded-circle"
+                         style="background-color: #ff7b00;"><i class="fas fa-toolbox"></i>
+                                    </div>
+                                </div>
+                                <img class="card-img-top" src="./assets/img/services-3.jpg" class="img-fluid" title="" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="mb-3 fw-bold">Architecture & Building</h5>
+                                <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et</p>
+                                <a class="ms-auto font-w-500 link-effect" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 my-3">
+                        <div class="card overflow-hidden hover-top">
+                            <div class="position-relative">
+                                <div class="card-img-overlay d-flex align-items-center justify-content-center z-index-1">
+                                    <div class="icon icon-lg text-white rounded-circle"
+                         style="background-color: #ff7b00;"><i class="fas fa-magnet"></i>
+                                    </div>
+                                </div>
+                                <img class="card-img-top" src="./assets/img/services-4.jpg" class="img-fluid" title="" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="mb-3 fw-bold">Tiling & Painiting</h5>
+                                <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et</p>
+                                <a class="ms-auto font-w-500 link-effect" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 my-3">
+                        <div class="card overflow-hidden hover-top">
+                            <div class="position-relative">
+                                <div class="card-img-overlay d-flex align-items-center justify-content-center z-index-1">
+                                    <div class="icon icon-lg text-white rounded-circle"
+                         style="background-color: #ff7b00;"><i class="fas fa-hammer"></i>
+                                    </div>
+                                </div>
+                                <img class="card-img-top" src="./assets/img/services-5.jpg" class="img-fluid" title="" alt="">
+                            </div>
+                            <div class="card-body p- p-4">
+                                <h5 class="fw-bold">Apartment Design</h5>
+                                <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et</p>
+                                <a class="ms-auto font-w-500 link-effect" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 my-3">
+                        <div class="card overflow-hidden hover-top">
+                            <div class="position-relative">
+                                <div class="card-img-overlay d-flex align-items-center justify-content-center z-index-1">
+                                    <div class="icon icon-lg text-white rounded-circle"
+                         style="background-color: #ff7b00;"><i class="fas fa-screwdriver"></i>
+                                    </div>
+                                </div>
+                                <img class="card-img-top" src="./assets/img/services-6.jpg" class="img-fluid" title="" alt="">
+                            </div>
+                            <div class="card-body p-">
+                                <h5 class="mb-3 fw-bold">Facade Engineering</h5>
+                                <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et</p>
+                                <a class="ms-auto font-w-500 link-effect" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section -->
+        <!-- Excellent Section -->
+        <section>
+            <div class="container-fluid my-5">
+                <div class="row">
+                    <div class="col-lg-6 bg-orange px-xl-10" style="background-color: #ff7b00;">
+                        <div class="p-12 p-lg-10 py-4">
+                            <h6 class="text-white mb-3">Working With Excellent</h6>
+                            <h2 class="fs-1 fw-bold mb-3 text-white">Construction & Engineering Real Solutions.</h2>
+                            <p class="text-muted m-0 text-white">Dome is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                            <ul class="list-type-03 white pt-2 text-white pt-4">
+                                <li>Beautiful and easy to understand UI, professional animations</li>
+                                <li>Theme advantages are pixel perfect design &amp; clear code delivered</li>
+                                <li>Present your services with flexible, convenient and multipurpose</li>
+                                <li>Find more creative ideas for your projects</li>
+                                <li>Unlimited power and customization possibilities</li>
+                            </ul>
+                            <div class="pt-5">
+                                <a class="btn border rounded-0 me-3 text-white fw-semibold py-3 px-4" style="background-color: #ff7b00;" href="#">
+                                    <span class="mr-2">Read More</span>
+                                    <i class="fa-solid fa-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 min-h-350px bg-center bg-cover" style="background-image: url(./assets/img/bg-2.jpg);">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section -->
+        <!-- Motivated Section -->
+        <section class="py-5 py-sm-8">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-8 col-xl-7 text-center">
+                        <h6 class="fw-bold" style="color: #ff7b00;">Our Team</h6>
+                        <h3 class="fs-1 fw-bold">Our Motivated Team</h3>
+                        <div class="text-muted">Dome is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3 my-3">
+                        <div class="our-team">
+                            <div class="position-relative overflow-hidden rounded">
+                                <img src="./assets/img/team-21.jpg" class="img-fluid" title="" alt="">
+                                <div class="effect-hover">
+                                    <div class="position-absolute top-0 start-0 end-0 bottom-0 bg-black bg-opacity-10"></div>
+                                    <div class="position-absolute top-0 start-0 end-0 bottom-0 d-flex w-100 h-100 flex-column align-items-center justify-content-center position-relative z-index-1">
+                                        <div class="position-absolute justify-content-center">
+                                            <a class="p-3 text-black bg-white rounded-circle me-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                            <a class="p-3 text-black bg-white rounded-circle me-1" href="#"><i class="fab fa-twitter"></i></a>
+                                            <a class="p-3 text-black bg-white rounded-circle me-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            <a class="p-3 text-black bg-white rounded-circle me-1" href="#"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-auto text-center pt-3">
+                                <h6 class="mb-2 h5">Nancy Bayers</h6>
+                                <p class="m-0 small">CEO, pxdraft Studio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 my-3">
+                        <div class="our-team">
+                            <div class="position-relative overflow-hidden rounded">
+                                <img src="./assets/img/team-20.jpg" class="img-fluid" title="" alt="">
+                                <div class="effect-hover">
+                                    <div class="position-absolute top-0 start-0 end-0 bottom-0 bg-black bg-opacity-10"></div>
+                                    <div class="position-absolute top-0 start-0 end-0 bottom-0 d-flex w-100 h-100 flex-column align-items-center justify-content-center position-relative z-index-1">
+                                        <div class="position-absolute justify-content-center">
+                                            <a class="p-3 text-black bg-white rounded-circle me-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                            <a class="p-3 text-black bg-white rounded-circle me-1" href="#"><i class="fab fa-twitter"></i></a>
+                                            <a class="p-3 text-black bg-white rounded-circle me-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            <a class="p-3 text-black bg-white rounded-circle me-1" href="#"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-auto text-center pt-3">
+                                <h6 class="mb-2 h5">Nancy Bayers</h6>
+                                <p class="m-0 small">CEO, pxdraft Studio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 my-3">
+                        <div class="our-team">
+                            <div class="position-relative overflow-hidden rounded">
+                                <img src="./assets/img/team-19.jpg" class="img-fluid" title="" alt="">
+                                <div class="effect-hover hidden">
+                                    <div class="position-absolute top-0 start-0 end-0 bottom-0 bg-black bg-opacity-10"></div>
+                                    <div class="position-absolute top-0 start-0 end-0 bottom-0 top-0 start-0 end-0 bottom-0 d-flex w-100 h-100 flex-column align-items-center justify-content-center position-relative z-index-1">
+                                        <div class="position-absolute justify-content-center">
+                                            <a class="p-3 text-black bg-white rounded-circle me-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                            <a class="p-3 text-black bg-white rounded-circle me-1" href="#"><i class="fab fa-twitter"></i></a>
+                                            <a class="p-3 text-black bg-white rounded-circle me-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            <a class="p-3 text-black bg-white rounded-circle me-1" href="#"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-auto text-center pt-3">
+                                <h6 class="mb-2 h5">Nancy Bayers</h6>
+                                <p class="m-0 small">CEO, pxdraft Studio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 my-3">
+                        <div class="our-team">
+                            <div class="position-relative overflow-hidden rounded">
+                                <img src="./assets/img/team-18.jpg" class="img-fluid" title="" alt="">
+                                <div class="effect-hover">
+                                    <div class="position-absolute top-0 start-0 end-0 bottom-0 bg-black bg-opacity-10"></div>
+                                    <div class="position-absolute top-0 start-0 end-0 bottom-0 d-flex w-100 h-100 flex-column align-items-center justify-content-center position-relative z-index-1">
+                                        <div class="position-absolute justify-content-center">
+                                            <a class="p-3 text-black bg-white rounded-circle me-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                            <a class="p-3 text-black bg-white rounded-circle me-1" href="#"><i class="fab fa-twitter"></i></a>
+                                            <a class="p-3 text-black bg-white rounded-circle me-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            <a class="p-3 text-black bg-white rounded-circle me-1" href="#"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-auto text-center pt-3">
+                                <h6 class="mb-2 h5">Nancy Bayers</h6>
+                                <p class="m-0 small">CEO, pxdraft Studio</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section -->
+        <!-- # Counter Section -->
+        <section class="py-5 py-sm-8" style="background-image: url(./assets/img/bg-3.jpg);background-position: center center;background-attachment: fixed;">
+            <div class="mask bg-dark opacity-3"></div>
+            <div class="container position-relative">
+                <div class="row">
+                    <div class=" col-6 col-lg-3 col-md-6 my-5">
+                        <div class="text-center">
+                            <div class="d-inline-flex mb-3 text-white fs-1">
+                                <i class="fa-solid fa-desktop"></i>
+                            </div>
+                            <h6 class="count h3 mb-2 text-white" data-to="4506" data-speed="4506">4506</h6>
+                            <span class="text-white">Project Complated</span>
+                        </div>
+                    </div>
+                    <div class=" col-6 col-lg-3 col-md-6 my-5">
+                        <div class="text-center">
+                            <div class="d-inline-flex mb-3 text-white fs-1">
+                                <i class="fa-solid fa-camera"></i>
+                            </div>
+                            <h6 class="count h3 mb-2 text-white" data-to="1580" data-speed="1580">1580</h6>
+                            <span class="text-white">Work Employed</span>
+                        </div>
+                    </div>
+                    <div class=" col-6 col-lg-3 col-md-6 my-5">
+                        <div class="text-center">
+                            <div class="d-inline-flex mb-3 text-white fs-1">
+                                <i class="fa-solid fa-laptop"></i>
+                            </div>
+                            <h6 class="count h3 mb-2 text-white" data-to="1280" data-speed="1280">1280</h6>
+                            <span class="text-white">Happy Customers</span>
+                        </div>
+                    </div>
+                    <div class=" col-6 col-lg-3 col-md-6 my-5">
+                        <div class="text-center">
+                            <div class="d-inline-flex mb-3 text-white fs-1">
+                                <i class="fa-solid fa-comment"></i>
+                            </div>
+                            <h6 class="count h3 mb-2 text-white" data-to="9642" data-speed="9642">9642</h6>
+                            <span class="text-white">Painting Services</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section -->
+        <!-- # Client Section -->
+        <section class="py-5 py-sm-8">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-8 col-xl-7 text-center">
+                        <h6 class="fw-bold" style="color: #ff7b00;">Our Clients Say</h6>
+                        <h3 class="fs-1 fw-bold">Clients Say About Us</h3>
+                        <div class="text-muted">Dome is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</div>
+                    </div>
+                </div>
+                <div class="row my-5 text-center">
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="card rounded-0 card-parent card-moving card-moving2 my-5 p-3">
+    
+                            <img src="./assets/img/team-21.jpg" class="card-img-top rounded-circle m-auto p-2" alt="...">
+                            <div class="card-body content">
+                                <p class="card-text">I wanted to hire the best and after looking at several other companies,
+                                    I knew Jacob was the perfect guy for the job. He is a true professional.t</p>
+    
+                                <h6 class="card-title py-2">Shoko Mugikura</h5>
+                                    <p class="card-text">Graphic Designer</p>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+    
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="card rounded-0 card-parent card-moving card-moving2 my-5 p-3">
+    
+                            <img src="./assets/img/team-19.jpg" class="card-img-top rounded-circle m-auto p-2" alt="...">
+                            <div class="card-body content">
+                                <p class="card-text">I wanted to hire the best and after looking at several other companies,
+                                    I knew Jacob was the perfect guy for the job. He is a true professional.t</p>
+    
+                                <h6 class="card-title py-2">Shoko Mugikura</h5>
+                                    <p class="card-text">Graphic Designer</p>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+    
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="card rounded-0 card-parent card-moving card-moving2 my-5 p-3">
+    
+                            <img src="./assets/img/team-18.jpg" class="card-img-top rounded-circle m-auto p-2" alt="...">
+                            <div class="card-body content">
+                                <p class="card-text">I wanted to hire the best and after looking at several other companies,
+                                    I knew Jacob was the perfect guy for the job. He is a true professional.t</p>
+    
+                                <h6 class="card-title py-2">Shoko Mugikura</h5>
+                                    <p class="card-text">Graphic Designer</p>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section -->
+        <!-- # Blog Section -->
+        <section class="py-5 py-sm-8 bg-secondary bg-opacity-10">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-8 col-xl-7 text-center">
+                        <h6 class="fw-bold" style="color: #ff7b00;">Our Blogs</h6>
+                        <h3 class="fs-1 fw-bold">Interesting stories</h3>
+                        <div class="text-muted">Dome is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 my-3 mb-5">
+                        <div class="position-relative mb-5">
+                            <div>
+                                <a href="#">
+                                    <img src="./assets/img/blog-1.jpg" class="img-fluid" title="" alt="">
+                                </a>
+                            </div>
+                            <div class="position-absolute top-50">
+                                <div class="mx-3 mx-lg-4 shadow bg-white p-4 position-relative">
+                                    <div class="text-muted mb-3"><i class="far fa-clock me-2"></i>March 14, 2021</div>
+                                    <a class="h5" href="#">I like the body. I like to design everything to do with the body.</a>
+                                    <p class="pt-3">Lorem Ipsum is simply dummy text of the printing and...</p>
+                                    <a class="ms-auto font-w-500 link-effect" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="position-relative">
+                            <div>
+                                <a href="#">
+                                    <img src="./assets/img/blog-2.jpg"  class="img-fluid" title="" alt="">
+                                </a>
+                            </div>
+                            <div class="position-absolute top-50">
+                                <div class="mx-3 mx-lg-4 shadow bg-white p-4 position-relative">
+                                    <div class="text-muted mb-3"><i class="far fa-clock me-2"></i>March 14, 2021</div>
+                                    <a class="h5" href="#">I like the body. I like to design everything to do with the body.</a>
+                                    <p class="pt-3">Lorem Ipsum is simply dummy text of the printing and...</p>
+                                    <a class="ms-auto font-w-500 link-effect" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="position-relative">
+                            <div>
+                                <a href="#">
+                                    <img src="./assets/img/blog-3.jpg" class="img-fluid" title="" alt="">
+                                </a>
+                            </div>
+                            <div class="position-absolute top-50">
+                                <div class="mx-3 mx-lg-4 shadow bg-white p-4 position-relative">
+                                    <div class="text-muted mb-3"><i class="far fa-clock me-2"></i>March 14, 2021</div>
+                                    <a class="h5" href="#">I like the body. I like to design everything to do with the body.</a>
+                                    <p class="pt-3">Lorem Ipsum is simply dummy text of the printing and...</p>
+                                    <a class="ms-auto font-w-500 link-effect" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section -->
     </main>
     <!-- End Main -->
     <!-- Footer -->
-    <!-- Section -->
-    <section class="py-5 effect-section parallax"  data-jarallax-original-styles="background-image: url(assets/img/project-2.jpg);">
-        <div class="mask bg-primary opacity-8"></div>
+    <!-- # Subscribe Section -->
+    <section class="py-5 position-relative overflow-hidden" style="background-image: url(./assets/img/bg-2.jpg);background-position: center center;background-attachment: fixed;">
+        <div class="position-absolute top-0 start-0 end-0 bottom-0" style="background-color: #ff7b00;opacity: 0.8;"></div>
         <div class="container position-relative">
             <div class="row align-items-center">
                 <div class="col-lg-5 mb-4 mb-lg-0 text-center text-lg-start">
@@ -129,37 +812,37 @@
                 <div class="col-lg-6 text-center text-lg-start">
                     <form>
                         <div class="d-flex flex-row">
-                            <input type="email" class="form-control me-md-2 border-0" placeholder="Enter your username">
-                            <button class="btn btn-outline-light flex-shrink-0" type="submit">Subscribe</button>
+                            <input type="email" class="form-control me-md-2 border-0 p-3 rounded-0" placeholder="Enter your username">
+                            <button class="btn btn-outline-light flex-shrink-0 px-6 rounded-0" type="submit">Subscribe</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
-    <div id="jarallax-container-2"><div class="pparallax"></div></div></section>
+    </section>
     <!-- End Section -->
-    <footer class="bg-dark footer pt-2">
-        <div class="footer-top py-5">
+    <footer class="bg-black p-4">
+        <div class="py-7">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 my-4">
-                        <img src="assets/img/logo-light.svg" title="" alt="">
+                        <img src="./assets/img/logo-light.svg" title="" alt="">
                         <p class="text-white-50 pt-4 w-80 m-0">Lorem Ipsum is simply dummied text of the printing and typesetting industry.</p>
                     </div>
-                    <div class="col-md-6 col-lg-2 my-4">
+                    <div class="col-md-6 col-lg-2 my-4 ">
                         <h5 class="text-white mb-3">Useful</h5>
-                        <ul class="list-unstyled white-link footer-links">
+                        <ul class="list-unstyled white-link m-0 ">
                             <li>
-                                <a href="#">Apps Store</a>
+                                <a href="#" class="text-decoration-none">Apps Store</a>
                             </li>
                             <li>
-                                <a href="#">Google Store</a>
+                                <a href="#" class="text-decoration-none">Google Store</a>
                             </li>
                             <li>
-                                <a href="#">Latest News</a>
+                                <a href="#" class="text-decoration-none">Latest News</a>
                             </li>
                             <li>
-                                <a href="#">Our Blog</a>
+                                <a href="#" class="text-decoration-none">Our Blog</a>
                             </li>
                         </ul>
                     </div>
@@ -167,16 +850,16 @@
                         <h5 class="text-white mb-3">Our serive</h5>
                         <ul class="list-unstyled white-link footer-links">
                             <li>
-                                <a href="#">Apps Store</a>
+                                <a href="#" class="text-decoration-none">Apps Store</a>
                             </li>
                             <li>
-                                <a href="#">Google Store</a>
+                                <a href="#" class="text-decoration-none">Google Store</a>
                             </li>
                             <li>
-                                <a href="#">Latest News</a>
+                                <a href="#" class="text-decoration-none">Latest News</a>
                             </li>
                             <li>
-                                <a href="#">Our Blog</a>
+                                <a href="#" class="text-decoration-none">Our Blog</a>
                             </li>
                         </ul>
                     </div>
@@ -184,48 +867,45 @@
                         <h5 class="text-white mb-3">More Links</h5>
                         <ul class="list-unstyled white-link footer-links">
                             <li>
-                                <a href="#">Apps Store</a>
+                                <a href="#" class="text-decoration-none">Apps Store</a>
                             </li>
                             <li>
-                                <a href="#">Google Store</a>
+                                <a href="#" class="text-decoration-none">Google Store</a>
                             </li>
                             <li>
-                                <a href="#">Latest News</a>
+                                <a href="#" class="text-decoration-none">Latest News</a>
                             </li>
                             <li>
-                                <a href="#">Our Blog</a>
+                                <a href="#" class="text-decoration-none">Our Blog</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-lg-3 my-4">
                         <h5 class="text-white mb-5">Contact Us</h5>
-                        <ul class="list-unstyled white-link footer-links">
+                        <ul class="list-unstyled white-link">
                             <li>
-                                <a href="#" class="media">
-                                    <div class="icon icon-primary icon-sm rounded-circle">
-                                        <i class="fa-solid fa-map-location-dot"></i>
+                                <a href="#" class="d-flex text-decoration-none ">
+                                    <div class="p-2 text-white rounded-circle" style="background-color: #ff7b00;">                        <i class="fa-solid fa-map-location"></i>
                                     </div>
-                                    <span class="media-body ps-3">
+                                    <span class="flex-1 ps-3">
                                         301 The Greenhouse, <br>Custard Factory, LD, E2 8DY
                                     </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="media align-items-center">
-                                    <div class="icon icon-primary icon-sm rounded-circle">
-                                        <i class="fa-solid fa-envelope"></i>
+                                <a href="#" class="d-flex align-items-center text-decoration-none">
+                                    <div class="ps-2 text-white rounded-circle" style="background-color: #ff7b00;"   >                     <i class="fa-solid fa-envelope"></i>
                                     </div>
-                                    <span class="media-body ps-3">
+                                    <span class="flex-1 ps-3">
                                         info@domain.com
                                     </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="media align-items-center">
-                                    <div class="icon icon-primary icon-sm rounded-circle">
-                                        <i class="fa-solid fa-mobile"></i>
+                                <a href="#" class="d-flex flex-1 align-items-center text-decoration-none">
+                                    <div class="ps-2 pt-1 text-white rounded-circle" style="background-color: #ff7b00;"   >                     <i class="fa-solid fa-phone"></i>
                                     </div>
-                                    <span class="media-body ps-3">
+                                    <span class="flex-1 ps-3">
                                         1-800-222-000
                                     </span>
                                 </a>
@@ -239,23 +919,31 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 my-3">
-                        <div class="nav justify-content-center justify-content-md-start">
-                            <a class="icon icon-sm icon-primary rounded-circle me-2" href="#">
+                        <div class="position-absolute justify-content-center justify-content-md-start">
+                            <a class="text-white d-inline-flex 
+                            w-5 h-5
+                            align-items-center justify-content-center text-center text-decoration-none rounded-circle me-2 p-2" style="background-color: #ff7b00;" href="#">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a class="icon icon-sm icon-primary rounded-circle me-2" href="#">
+                            <a class="text-white d-inline-flex 
+                            w-5 h-5
+                            align-items-center justify-content-center text-center text-decoration-none rounded-circle me-2 p-2" style="background-color: #ff7b00;" href="#">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a class="icon icon-sm icon-primary rounded-circle me-2" href="#">
+                            <a class="text-white d-inline-flex 
+                            w-5 h-5
+                            align-items-center justify-content-center text-center text-decoration-none rounded-circle me-2 p-2" style="background-color: #ff7b00;" href="#">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            <a class="icon icon-sm icon-primary rounded-circle me-2" href="#">
-                                <i class="fab fa-linkedin-in"></i>
+                            <a class="text-white d-inline-flex 
+                            w-5 h-5
+                            align-items-center justify-content-center text-center text-decoration-none rounded-circle me-2 p-2" style="background-color: #ff7b00;" href="#">
+                                <i class="fab fa-linkedin-in "></i>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-6 my-3 text-center text-md-end">
-                        <p class="m-0 text-white-50">© 2021 copyright <a href="pxdraft.com">pxdraft</a></p>
+                        <p class="m-0 text-white-50 ">© 2021 copyright <a href="pxdraft.com" class="text-decoration-none" style="color: var(--bs-orange);">pxdraft</a></p>
                     </div>
                 </div>
             </div>
@@ -280,7 +968,7 @@
     <script src="static/vendor/mail/js/form.min.js"></script>
     <script src="static/vendor/mail/js/script.js"></script>
     <!-- Theme Js -->
-    <script src="static/js/custom.js"></script>
+    <script src="./assets/js/custom.js"></script>
 
 <!-- end body -->
 
